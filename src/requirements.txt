@@ -1,0 +1,7 @@
+# Minimum requirements with security pins
+flask==2.3.2  # Fixed version to avoid vulnerabilities
+boto3==1.28.21  # AWS SDK
+aws-wsgi==2.0.1  # Lambda Flask adapter
+cryptography==41.0.2  # Encryption
+pyjwt==2.7.0  # Auth tokens
+bandit==1.7.5  # Security scanner (dev only)
